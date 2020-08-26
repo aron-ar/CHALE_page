@@ -1,0 +1,17 @@
+.container {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.navbar-brand div {
+  width: 200px;
+  height: 100px;
+  background-image: url("./../../../../assets/images/logocolor.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navbar-nav li {
+  margin-right: 0.5em;
+}
