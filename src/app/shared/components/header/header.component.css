@@ -15,6 +15,14 @@
   background-position: center;
 }
 
+.navbar-nav {
+  margin-right: 1em;
+}
+
+.dropdown-menu {
+  min-width: 8em;
+}
+
 .navbar-nav li {
   margin-right: 0.5em;
 }
