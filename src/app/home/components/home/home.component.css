@@ -1,0 +1,66 @@
+.titulos {
+  text-transform: uppercase;
+  margin: 1em auto;
+  font-size: 2em;
+  font-weight: bold;
+  border-bottom: 3px solid #ffc107;
+  width: fit-content;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.vid {
+  height: 35vw;
+  margin: 0 10%;
+}
+
+.fila-card .card {
+  width: 18rem;
+  min-width: 18rem;
+  margin-right: 2rem;
+}
+
+.fila-card {
+  overflow-x: auto;
+}
+.fila-card::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.fila-card::-webkit-scrollbar:vertical {
+  width: 10px;
+}
+
+.fila-card::-webkit-scrollbar-button:increment,
+.fila-card::-webkit-scrollbar-button {
+  display: none;
+}
+
+.fila-card::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+.fila-card::-webkit-scrollbar-thumb {
+  background-color: #797979;
+  border-radius: 20px;
+  border: 2px solid #f1f2f3;
+}
+
+.fila-card::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+.numeros {
+  text-transform: uppercase;
+  margin: 1em auto;
+  font-size: 4em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.text-numeros {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}

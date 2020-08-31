@@ -1,2 +1,92 @@
 <app-banner></app-banner>
-<p>home works!</p>
+<div class="container my-5">
+  <div class="home-conocenos text-center">
+    <h1 class="titulos">CONÓCENOS</h1>
+    <p>
+      Somos un voluntariado, integrado por jóvenes profesionales, que brindan
+      asesoría y reforzamiento educativo a niños y jóvenes en edad escolar, a
+      través de plataformas virtuales, interativas y dinámicas.
+    </p>
+    <a class="btn btn-warning mb-3" href="">Leer más</a>
+    <br />
+    <div class="vid">
+      <iframe
+        width="100%"
+        height="100%"
+        src="https://www.youtube.com/embed/2KNoQyllPsw"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </div>
+  <div class="home-asesorias">
+    <h1 class="titulos">ALGUNAS DE NUESTRAS ASESORÍAS</h1>
+    <div class="fila-card row d-flex flex-nowrap">
+      <!-- subir videos al hosting -->
+      <div class="card border-dark">
+        <iframe
+          src="https://www.youtube.com/embed/GN6ONgLw8WE"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <div class="card-body text-center">
+          <h3 class="card-title">Sesiones 1ra semana agosto</h3>
+        </div>
+      </div>
+      <div
+        class="card border-dark"
+        *ngFor="let m of [1, 2, 3, 4, 5, 6, 7, 8, 9]"
+      >
+        <div class="card-body text-center">
+          <h3 class="card-title">Sesiones 1ra semana agosto</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="home-numeros">
+    <h1 class="titulos">Nuestros numeros</h1>
+    <div class="row justify-content-around row-cols-1">
+      <div class="card border-warning text-center col-md-3 mb-4">
+        <div class="card-body">
+          <h1 class="card-title numeros">123</h1>
+          <h3 class="card-text text-numeros">VOLUNTARIOS</h3>
+        </div>
+      </div>
+      <div class="card border-warning text-center col-md-3 mb-4">
+        <div class="card-body">
+          <h1 class="card-title numeros">123</h1>
+          <h3 class="card-text text-numeros">ASESORIAS REALIZADAS</h3>
+        </div>
+      </div>
+      <div class="card border-warning text-center col-md-3 mb-4">
+        <div class="card-body">
+          <h1 class="card-title numeros">123</h1>
+          <h3 class="card-text text-numeros">ESTUDIANTES ALCANZADOS</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="home-alianzas">
+    <h1 class="titulos">Nuestras alianzas</h1>
+    <div class="fila-card row d-flex flex-nowrap">
+      <div
+        class="card border-info"
+        *ngFor="let m of [1, 2, 3, 4, 5, 6, 7, 8, 9]"
+      >
+        <img
+          src="./../../../../assets/images/alianza.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
