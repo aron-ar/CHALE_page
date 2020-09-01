@@ -1,0 +1,14 @@
+<h1 class="titulos">Nuestro equipo</h1>
+<div class="row row-cols-2 row-cols-lg-4 justify-content-center">
+  <div class="col mb-4" *ngFor="let e of equipo">
+    <div class="card h-100">
+      <img [src]="e.imagen" class="card-img-top" [alt]="e.nombre" />
+      <div class="card-body">
+        <h3 class="card-title">{{ e.nombre }}</h3>
+        <p class="card-text">
+          {{ e.descripcion }}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
