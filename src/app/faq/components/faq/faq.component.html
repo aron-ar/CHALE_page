@@ -1,0 +1,16 @@
+<div class="container">
+  <!-- realizado con angular material -->
+  <h1 class="titulos">Preguntas Frecuentes</h1>
+  <mat-accordion>
+    <mat-expansion-panel
+      (opened)="panelOpenState = true"
+      (closed)="panelOpenState = false"
+      *ngFor="let q of questions"
+    >
+      <mat-expansion-panel-header>
+        <mat-panel-title> {{ q.pregunta }} </mat-panel-title>
+      </mat-expansion-panel-header>
+      <p>{{ q.respuesta }}</p>
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>

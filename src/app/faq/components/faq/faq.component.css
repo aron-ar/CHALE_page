@@ -1,0 +1,14 @@
+.titulos {
+  text-transform: uppercase;
+  margin: 1em auto;
+  font-size: 2em;
+  font-weight: bold;
+  border-bottom: 3px solid #ffc107;
+  width: fit-content;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.container {
+  margin-bottom: 2em;
+}
