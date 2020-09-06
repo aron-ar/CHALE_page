@@ -29,6 +29,11 @@ const routes: Routes = [
         path: 'faq',
         loadChildren: () => import('./faq/faq.module').then((m) => m.FaqModule),
       },
+      {
+        path: 'herramientas',
+        loadChildren: () =>
+          import('./our-tools/our-tools.module').then((m) => m.OurToolsModule),
+      },
     ],
   },
   {

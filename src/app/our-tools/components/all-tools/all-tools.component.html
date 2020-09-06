@@ -1,0 +1,25 @@
+<div class="container">
+  <h1 class="titulos">Conóce nuestras herramientas</h1>
+  <div class="row text-center mb-2">
+    <div
+      class="col-12 col-sm-6 col-md-4"
+      *ngFor="let t of [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+    >
+      <div class="card my-2">
+        <img
+          src="./../../../../assets/images/logonegro.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a routerLink="our-tools" class="btn btn-primary">Leer más</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
